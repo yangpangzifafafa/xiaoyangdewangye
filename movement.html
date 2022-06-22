@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>蓝莓派-乐章</title>
+    <link rel="shortcut icon" href="项目二favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="蓝莓css/base.css" />
+    <link rel="stylesheet" href="蓝莓css/movement.css" />
+</head>
+
+<body>
+    <!-- 顶部--->
+    <div class="header">
+        <div class="container">
+            <a href="蓝莓.html">首页</a>
+            <a href="movement.html" class="active">乐章</a>
+        </div>
+    </div>
+    <!-- /顶部-->
+
+    <!-- 乐章的音乐部分 -->
+    <div class="container">
+        <div class="music">
+            <div class="music_title">默-那英[《何以</div>
+            <div class="music_wrapper">
+                <img src="项目二images/dog.jpg" alt="" />
+                <div class="author_info">
+                    介绍： “终于毕业啦”，带着留恋，或带着探索的兴奋，大家要踏入下一站旅程。人生其实就是不断的选择，今天要离开学习的大站，但是下一站“社会大学”充满了各种可能性
+                </div>
+            </div>
+            <div class="music_contoller">
+                <!-- 播放的按钮 -->
+                <div class="play">
+                    <!-- <img src="images/pause.png" alt=""> -->
+                    <img src="项目二images/play-btn_03.png" alt="" />
+                </div>
+                <!-- 开始播放时间 -->
+                <div class="current">00:00</div>
+                <!-- 进度条 -->
+                <div class="progress">
+                    <div class="innerProgress"></div>
+                </div>
+                <!-- 总时间 -->
+                <div class="duration">00:00</div>
+            </div>
+        </div>
+    </div>
+    <!-- /乐章的音乐部分 -->
+
+    <audio src="res/那英-默.mp3" id="audio" controls></audio>
+
+    <script src="项目二js/jquery.min.js"></script>
+    <script src="项目二js/movement.js"></script>
+</body>
+
+</html>
