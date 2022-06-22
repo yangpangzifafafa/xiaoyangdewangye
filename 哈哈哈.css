@@ -1,0 +1,26 @@
+body {
+    width: 600px;
+    height: 800px;
+    background-image: url(img/bg.jpg);
+}
+
+.NN {
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 600px;
+}
+
+.DD {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 640px;
+}
+
+.CC {
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 690px;
+}
